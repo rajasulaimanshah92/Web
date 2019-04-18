@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: #aff441;
+  color: #ffffff ;
+}
+
+.login{
+  background: #41f479;
+}
+
+.dropdown{
+  background: #41f479;
+  display: block;
+  float:left;
+
+}
+
+#submit{
+  background: #41acf4;
+  display: block;
+  float:left;
+  padding: 9px;
+}
+
+#email{
+  background: #41acf4;
+  display:block;
+  padding: 9px;
+  float: left;
+}
+
+#image{
+  color: #ffffff;
+  display: block;
+  float:right;
+  margin:40px;
+}

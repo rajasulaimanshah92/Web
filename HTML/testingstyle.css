@@ -1,0 +1,70 @@
+body {
+  background-color: darkseagreen;
+}
+
+h1 {
+  color: white;
+  font-family: verdana;
+  font-size: 200%;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-family: courier;
+  font-size: 160%;
+  padding: 30px;
+  border: 1px red;
+}
+
+.p_lain {
+  color: green;
+  font-family: courier;
+  font-size: 160%;
+  text-align: center;
+}
+
+.p_lain2 {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+  text-align: center;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+  /*text-decoration > to remove underline*/
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:link, a:visited {
+  background-color: blue;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: yellow;
+}

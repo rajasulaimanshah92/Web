@@ -1,0 +1,36 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="id.css">
+
+</head>
+
+<body style="background-color:khaki;">
+
+  <h2>Difference Between Class and ID</h2>
+  <p>An HTML page can only have one unique id applied to one specific element, while a class name can be applied to multiple elements.</p>
+
+  <!-- A unique element -->
+  <h1 id="myHeader">Bandar</h1>
+
+  <!-- Multiple similar elements -->
+  <h2 class="city">London</h2>
+
+  <h2 class="city">Paris</h2>
+
+  <h2 class="city">Tokyo</h2>
+
+  <button onclick="displayResult()">Change text</button>
+  <script>
+    function displayResult() {
+      document.getElementById("myHeader").innerHTML = "Have a nice day!";
+    }
+  </script>
+
+  <iframe src="table.html" height="200" width="300"></iframe>
+
+
+</body>
+
+</html>

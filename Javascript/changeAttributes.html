@@ -1,0 +1,28 @@
+<html>
+
+<body>
+  <script>
+    function gender(sw) {
+      var pic;
+      if (sw == 0) {
+        pic = "female.jpg"
+      } else {
+        pic = "male.jpg"
+      }
+      document.getElementById('Gambar').src = pic;
+      document.getElementById('Gambar').style.fontSize = "25px";
+    }
+  </script>
+
+  <center>
+    <img id="Gambar" src="male.jpg" width="200" height="200">
+
+    <p>
+      <button type="button" onclick="gender(1)">Male</button>
+      <button type="button" onclick="gender(0)">Female</button>
+    </p>
+  </center>
+
+</body>
+
+</html>
