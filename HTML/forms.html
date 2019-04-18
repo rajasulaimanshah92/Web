@@ -4,11 +4,9 @@
   <link rel="stylesheet" href="forms.css">
 </header>
 
-
 <body>
 
   <h2>HTML Forms</h2>
-
 
   <div class="login">
     <form action="" target="_self" method="">
@@ -16,12 +14,10 @@
         <legend><b>Personal information:</b></legend>
         <!-- 'action' untuk hantar form ni kemana -->
         First name:<br>
-        <input type="text" name="firstname" value=""><br>
-        Last name:<br>
-        <input type="text" name="lastname" value=""><br>
-        Username:<br>
-        <input type="text" name="userid"><br>
-        User password:<br>
+        <input type="text" name="firstname" value=""><br> Last name:<br>
+        <input type="text" name="lastname" value=""><br> Username:
+        <br>
+        <input type="text" name="userid"><br> User password:<br>
         <input type="password" name="psw"><br>
         <br>
         <input type="radio" name="gender" value="male" checked> Male<br>
@@ -32,25 +28,17 @@
         <input type="checkbox" name="vehicle2" value="Car">Car
         <br>
 
-          <div id="email">
-            Email : <input type="email" name="">
-          </div>
+        <div id="email">
+          Email : <input type="email" name="">
+        </div>
 
         <br><br>
-          <input type="submit" value="Sign Up">
+        <input type="submit" value="Sign Up">
 
         <button type="button" onclick="alert('Hello World!')">Click Me!</button>
       </fieldset>
-
     </form>
-
-</div>
-
-<p>
-  If you click the <strong>"Submit"</strong> button, the form-data will be sent to a page called "/action_page.php".
-</p>
-
-
+  </div>
   <form action="/action_page.php">
     <div class="dropdown">
       <fieldset>
@@ -62,14 +50,13 @@
         </select>
       </fieldset>
     </div>
-  <div id="submit">
-    <input type="submit">
-  </div>
-  <div id="image">
-    Select images: <input type="file" name="docs" multiple>
-    <input type="submit">
-  </div>
-
+    <div id="submit">
+      <input type="submit">
+    </div>
+    <div id="image">
+      Select images: <input type="file" name="docs" multiple>
+      <input type="submit">
+    </div>
   </form>
 
 

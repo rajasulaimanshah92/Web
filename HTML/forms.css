@@ -1,4 +1,4 @@
-/* *{
+*{
   box-sizing: border-box;
 }
 
@@ -15,7 +15,10 @@ body{
   background: #41f479;
   display: block;
   float:left;
+}
 
+.dropdown > fieldset {
+  padding: 4px;
 }
 
 #submit{
@@ -30,4 +33,4 @@ body{
   display:block;
   padding: 9px;
   float: left;
-} */
+}
