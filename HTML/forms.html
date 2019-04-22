@@ -14,11 +14,11 @@
         <legend><b>Personal information:</b></legend>
         <!-- 'action' untuk hantar form ni kemana -->
         First name:<br>
-        <input type="text" name="firstname" value=""><br> Last name:<br>
-        <input type="text" name="lastname" value=""><br> Username:
+        <input type="text" name="firstname" value="" required autofocus><br> Last name:<br>
+        <input type="text" name="lastname" value="" required><br> Username:
         <br>
-        <input type="text" name="userid"><br> User password:<br>
-        <input type="password" name="psw"><br>
+        <input type="text" name="userid" required><br> User password:<br>
+        <input type="password" name="psw" required><br>
         <br>
         <input type="radio" name="gender" value="male" checked> Male<br>
         <input type="radio" name="gender" value="female"> Female<br>
@@ -29,7 +29,7 @@
         <br>
 
         <div id="email">
-          Email : <input type="email" name="">
+          Email : <input type="email" name="" required>
         </div>
 
         <br><br>
